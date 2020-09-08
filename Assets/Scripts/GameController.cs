@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-   public void RestartGame(){
-       SceneManager.LoadScene(0);
-       Time.timeScale = 1;
-   }
+
+    public int score;
+    public Text scoreText;
+    
+    public void RestartGame(){
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1;
+        }
 }

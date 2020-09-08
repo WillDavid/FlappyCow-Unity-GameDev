@@ -274,8 +274,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1646737810119970261}
   - component: {fileID: 2422675142475682448}
+  - component: {fileID: 4344533010444760678}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Points
   m_TagString: Pontuador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -321,3 +322,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.4369326}
   m_EdgeRadius: 0
+--- !u!114 &4344533010444760678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7866086434444265732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f143877a1db13344b73094e272c5847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
