@@ -37,7 +37,7 @@ public class BirdBehavior : MonoBehaviour
 
 
     void OnCollisionEnter2D(Collision2D other) {
-        if(other.gameObject.tag == "Pipe"){
+        if(other.gameObject.tag == "lamina"){
             gameOver.SetActive(true);
             Time.timeScale = 0;
         }
